@@ -7,6 +7,8 @@
       "Bash(git commit *)",
       "Bash(git log *)",
       "Bash(git push)",
+      "Write(*.md)",
+      "Read(*.md)"
     ],
     "deny": [
       "Bash(curl *)",
@@ -14,5 +16,5 @@
       "Read(./.env.*)",
       "Read(./secrets/**)"
     ]
-  },
+  }
 }
