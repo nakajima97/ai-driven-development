@@ -1,0 +1,19 @@
+# Eval workspaces (intermediate outputs from skill evaluation process)
+.claude/skills/*-workspace/
+
+# dotfiles (unrelated to this project)
+.bash_profile
+.bashrc
+.zshrc
+.zprofile
+.profile
+.gitconfig
+.gitmodules
+.ripgreprc
+
+# IDE
+.idea
+.idea/
+
+# MCP
+.mcp.json

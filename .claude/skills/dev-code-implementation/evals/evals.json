@@ -1,0 +1,31 @@
+{
+  "skill_name": "dev-code-implementation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "プロフィール編集機能を実装して。GET /api/profile と PUT /api/profile が必要。Prismaでusersテーブルのname/avatarUrl/bioを操作する。テストはVitest。1タスク1コミットで進めて。",
+      "expected_output": "APIルートのコードが実装される。バリデーション・Prismaクエリ・エラーハンドリングが含まれる。コミット単位の提示がある。",
+      "files": [],
+      "assertions": [
+        {"text": "APIルートのコードが含まれる（route.ts または handler）"},
+        {"text": "Prismaのクエリが含まれる（findUnique/update等）"},
+        {"text": "バリデーション処理が含まれる"},
+        {"text": "エラーハンドリングが含まれる（try/catch またはエラーレスポンス）"},
+        {"text": "コミット単位またはタスク分解への言及がある"}
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "管理者ユーザー停止APIを実装して。PATCH /api/admin/users/[id]/suspend で is_suspended フラグを更新する。管理者のみアクセス可能にして。Next.js App Router + Prisma。",
+      "expected_output": "管理者向けAPIが実装される。認証・認可チェック・Prisma更新・エラーハンドリングが含まれる。",
+      "files": [],
+      "assertions": [
+        {"text": "APIルートのコードが含まれる"},
+        {"text": "認証・認可チェックが含まれる（admin確認）"},
+        {"text": "Prismaの更新クエリが含まれる（update/is_suspended）"},
+        {"text": "エラーハンドリングが含まれる"},
+        {"text": "HTTPステータスコードへの言及がある（200/401/403/404等）"}
+      ]
+    }
+  ]
+}
