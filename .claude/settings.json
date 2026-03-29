@@ -16,5 +16,8 @@
       "Read(./.env.*)",
       "Read(./secrets/**)"
     ]
+  },
+  "enabledPlugins": {
+    "skill-creator@claude-plugins-official": true
   }
 }
