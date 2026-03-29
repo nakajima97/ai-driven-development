@@ -8,7 +8,10 @@
       "Bash(git log *)",
       "Bash(git push)",
       "Write(*.md)",
-      "Read(*.md)"
+      "Write(.claude/skills/**)",
+      "Read(*.md)",
+      "Edit(/.claude/skills/**)",
+      "Bash(mkdir -p *)"
     ],
     "deny": [
       "Bash(curl *)",
