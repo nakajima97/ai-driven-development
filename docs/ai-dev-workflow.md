@@ -15,9 +15,9 @@
     - Storybook
     - Vitest
   - バックエンド
-    - OpenAPIの自動生成が可能なフレームワーク
-      - FastAPI
-      - Laravel（Scramble）
+    - 指定なし
+      - FastAPIのようにOpenAPI specを自動生成されるものだと楽
+      - 自動生成されない場合はOpenAPI specをYAMLで作成する
 
 ## コンセプト
 - アウトプット駆動開発　という開発手法を新たに定義
